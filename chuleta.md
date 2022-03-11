@@ -31,3 +31,20 @@ sail up -d
 ```
 sail mysql -u admin_bs -p Jmb9w7L.h6aj
 ```
+
+# Install passport
+
+```
+sail composer require laravel/passport
+
+sail php artisan passport:install
+```
+
+# example console output:
+  Encryption keys generated successfully.
+  Personal access client created successfully.
+  Client ID: 1
+  Client secret: Hp5SSOR9m9XiQDIci0UoIlebRhl82RWdWft9DIlO
+  Password grant client created successfully.
+  Client ID: 2
+  Client secret: n2xHK5wS3EuEO85zGqorINc1bYHdVyN8i7Onvbbg
